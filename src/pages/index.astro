@@ -1,6 +1,10 @@
 ---
 import AnimatedBanner from "../components/AnimatedBanner.tsx";
 import Layout from "../layouts/Layout.astro";
+import Reviews from "../components/Reviews.tsx";
+import Bedrooms from "@/components/Bedrooms";
+import Unitys from "@/components/Unitys";
+import Menu from "@/components/Menu";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -8,4 +12,8 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout>
     <AnimatedBanner client:load />
+    <Bedrooms client:load />
+    <Unitys client:load />
+    <Reviews client:load />
+    <Menu client:load />
 </Layout>
