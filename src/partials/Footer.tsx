@@ -21,7 +21,7 @@ export default function Footer() {
                         href="https://wa.me/5511995955871"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="mt-4 bg-[#32B129] text-primary font-bold py-3 px-10 rounded-sm hover:opacity-90 transition-opacity tracking-widest text-sm"
+                        className="mt-4 bg-[#32B129] text-white font-bold py-3 px-10 rounded-sm hover:opacity-90 transition-opacity tracking-widest text-sm"
                     >
                         WHATSAPP
                     </a>
@@ -54,7 +54,7 @@ export default function Footer() {
                         href="https://wa.me/5511996297158"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="mt-4 bg-[#32B129] text-primary font-bold py-3 px-10 rounded-sm hover:opacity-90 transition-opacity tracking-widest text-sm"
+                        className="mt-4 bg-[#32B129] text-white font-bold py-3 px-10 rounded-sm hover:opacity-90 transition-opacity tracking-widest text-sm"
                     >
                         WHATSAPP
                     </a>
