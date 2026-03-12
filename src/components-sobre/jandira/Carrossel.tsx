@@ -12,7 +12,7 @@ const rooms = [
         images: [
             '/images/QuartosJandira/quartoIndividualDeluxe.png'
         ],
-        whatsappLink: 'https://api.whatsapp.com/send?phone=5511995955871'
+        whatsappLink: 'https://api.whatsapp.com/send?phone=5511996297158'
     },
     {
         id: 'suite-standard',
@@ -23,7 +23,7 @@ const rooms = [
             '/images/QuartosJandira/SuiteStandard (1).png',
             '/images/QuartosJandira/SuiteStandard (2).png'
         ],
-        whatsappLink: 'https://api.whatsapp.com/send?phone=5511995955871'
+        whatsappLink: 'https://api.whatsapp.com/send?phone=5511996297158'
     },
     {
         id: 'twin-deluxe',
@@ -34,7 +34,7 @@ const rooms = [
             '/images/QuartosJandira/QuartoTwinDeluxe (1).png',
             '/images/QuartosJandira/QuartoTwinDeluxe (2).png'
         ],
-        whatsappLink: 'https://api.whatsapp.com/send?phone=5511995955871'
+        whatsappLink: 'https://api.whatsapp.com/send?phone=5511996297158'
     },
     {
         id: 'triplo-deluxe',
@@ -45,7 +45,7 @@ const rooms = [
             '/images/QuartosJandira/QuartoTriploDeluxe (1).png',
             '/images/QuartosJandira/QuartoTriploDeluxe (2).png'
         ],
-        whatsappLink: 'https://api.whatsapp.com/send?phone=5511995955871'
+        whatsappLink: 'https://api.whatsapp.com/send?phone=5511996297158'
     }
 ];
 
