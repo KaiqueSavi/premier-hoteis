@@ -31,10 +31,10 @@ export default function Footer() {
                 <div className="flex flex-col items-center gap-4 mt-4 md:mt-0">
                     <ul className="flex flex-col gap-4 text-sm font-medium">
                         <li><a href="/" className="hover:text-primary transition-colors">Inicio</a></li>
-                        <li><a href="/o-hotel" className="hover:text-primary transition-colors">O Hotel</a></li>
-                        <li><a href="/reservas" className="hover:text-primary transition-colors">Reservas</a></li>
+                        <li><a href="/sobre" className="hover:text-primary transition-colors">O Hotel</a></li>
+                        <li><a href="/reserva" className="hover:text-primary transition-colors">Reservas</a></li>
                         <li><a href="/politicas" className="hover:text-primary transition-colors">Políticas de Reserva</a></li>
-                        <li><a href="/contato" className="hover:text-primary transition-colors">Trabalhe Conosco</a></li>
+                        <li><a href="/trabalhe-conosco" className="hover:text-primary transition-colors">Trabalhe Conosco</a></li>
                     </ul>
                 </div>
 

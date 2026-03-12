@@ -1,0 +1,17 @@
+---
+import AnimatedBanner from "../components-sobre/jandira/AnimatedBanner.tsx";
+import Layout from "../layouts/Layout.astro";
+import OHotel from "../components-sobre/jandira/OHotel.tsx";
+import Carrossel from "../components-sobre/jandira/Carrossel.tsx";
+import Perguntas from "../components-sobre/jandira/Perguntas.tsx";
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+    <AnimatedBanner client:load />
+    <OHotel client:load />
+    <Carrossel client:load />
+    <Perguntas client:load />
+</Layout>

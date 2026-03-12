@@ -1,0 +1,15 @@
+---
+import AnimatedBanner from "../components-sobre/AnimatedBanner.tsx";
+import Layout from "../layouts/Layout.astro";
+import Sobre from "@/components-sobre/Sobre";
+import VMV from "@/components-sobre/VMV";
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+    <AnimatedBanner client:load />
+    <Sobre client:load />
+    <VMV client:load />
+</Layout>

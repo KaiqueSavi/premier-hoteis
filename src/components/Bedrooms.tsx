@@ -3,89 +3,109 @@ import React from 'react';
 const rooms = [
     {
         title: 'Quarto Individual',
-        image: '/images/rooms/individual.webp', // Placeholder path
+        image: '/images/Badrooms/quartosolteiro.png', // Placeholder path
         amenities: ['WIFI GRATUITO', 'BANHEIRO PRIVATIVO', 'SERVIÇO DE QUARTO'],
     },
     {
         title: 'Quarto Casal',
-        image: '/images/rooms/casal.webp', // Placeholder path
+        image: '/images/Badrooms/quartocasal.png', // Placeholder path
         amenities: ['WIFI GRATUITO', 'BANHEIRO PRIVATIVO', 'SERVIÇO DE QUARTO'],
     },
     {
         title: 'Quarto Duplo',
-        image: '/images/rooms/duplo.webp', // Placeholder path
+        image: '/images/Badrooms/quartoduplo.png', // Placeholder path
         amenities: ['WIFI GRATUITO', 'BANHEIRO PRIVATIVO', 'SERVIÇO DE QUARTO'],
     },
     {
         title: 'Quarto Triplo',
-        image: '/images/rooms/triplo.webp', // Placeholder path
+        image: '/images/Badrooms/quartotriplo.png', // Placeholder path
         amenities: ['WIFI GRATUITO', 'BANHEIRO PRIVATIVO', 'SERVIÇO DE QUARTO'],
     },
 ];
 
 export default function Bedrooms() {
     return (
-        <section className="bg-white py-20 px-4">
-            <div className="max-w-7xl mx-auto text-center mb-16 px-4">
+        <section className="bg-[#f5f5f5] py-16 px-4">
+            <div className="max-w-7xl mx-auto text-center mb-10">
                 <h2
-                    className="text-4xl md:text-5xl font-serif text-black mb-4"
+                    className="text-4xl md:text-[44px] font-serif text-black font-bold mb-4 leading-tight"
                     style={{ fontFamily: "'Playfair Display', serif" }}
                 >
-                    Quartos para todas ocasiões!
+                    Quartos para<br />todas ocasiões!
                 </h2>
-                <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
+                <p className="text-black font-bold text-[13px] md:text-sm">
                     O Premiêr Hotel Barueri e Jandira, são as opções perfeitas para sua hospedagem a negócios ou lazer!
                 </p>
             </div>
 
-            <div className="max-w-[1400px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="max-w-[1240px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {rooms.map((room, index) => (
                     <div
                         key={index}
-                        className="bg-white rounded-3xl overflow-hidden shadow-xl border border-gray-100 flex flex-col h-full transform hover:-translate-y-2 transition-transform duration-300"
+                        className="bg-white rounded-[24px] overflow-hidden shadow-2xl shadow-black/40 flex flex-col pb-6"
                     >
                         {/* Image Container */}
-                        <div className="relative h-64 overflow-hidden">
+                        <div className="h-[220px] w-full">
                             <img
                                 src={room.image}
                                 alt={room.title}
                                 className="w-full h-full object-cover"
-                                onError={(e) => {
-                                    (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=800&auto=format&fit=crop';
-                                }}
                             />
                         </div>
 
                         {/* Amenities */}
-                        <div className="flex justify-between items-center px-6 py-4 border-b border-gray-100">
-                            {room.amenities.map((amenity, i) => (
-                                <div key={i} className="flex flex-col items-center gap-1">
-                                    {/* Minimalist Amenity Icons (Simplified for this version) */}
-                                    <div className="w-4 h-4 text-gray-400 opacity-60">
-                                        {/* Icon Placeholders */}
-                                        {i === 0 && <span className="text-[10px]">🛜</span>}
-                                        {i === 1 && <span className="text-[10px]">🚿</span>}
-                                        {i === 2 && <span className="text-[10px]">🛎️</span>}
-                                    </div>
-                                    <span className="text-[9px] font-bold text-gray-500 uppercase tracking-tighter text-center">
-                                        {amenity}
-                                    </span>
-                                </div>
-                            ))}
+                        <div className="flex justify-center items-center gap-[6px] mt-4 px-2 w-full">
+                            <div className="flex items-center gap-1">
+                                <svg className="w-3 h-3 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+                                <span className="text-[7px] font-extrabold text-black tracking-tight" style={{fontFamily: "Arial, sans-serif"}}>WIFI GRATUITO</span>
+                            </div>
+                            <div className="flex items-center gap-1">
+                                <svg className="w-3 h-3 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2H9.5a5.5 5.5 0 0 0 0 11h2.5V21"></path><path d="M10 6.5h3"></path><path d="M16 13h5"></path><path d="M16 17h5"></path><path d="M16 21h5"></path></svg>
+                                <span className="text-[7px] font-extrabold text-black tracking-tight" style={{fontFamily: "Arial, sans-serif"}}>BANHEIRO PRIVATIVO</span>
+                            </div>
+                            <div className="flex items-center gap-1">
+                                <svg className="w-3 h-3 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V15a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"></path><path d="M12 13V3a9 9 0 0 1 9 9"></path><path d="M3 13a9 9 0 0 1 9-9"></path></svg>
+                                <span className="text-[7px] font-extrabold text-black tracking-tight" style={{fontFamily: "Arial, sans-serif"}}>SERVIÇO DE QUARTO</span>
+                            </div>
                         </div>
 
-                        {/* Card Footer Detail */}
-                        <div className="flex-grow flex flex-col items-center justify-between p-8 text-center bg-gray-50/50">
-                            <h3 className="text-xl font-bold text-gray-800 mb-6">{room.title}</h3>
+                        {/* Title */}
+                        <h3 className="text-center text-[17px] font-black text-black mt-6 mb-6 font-sans">
+                            {room.title}
+                        </h3>
+
+                        {/* Button */}
+                        <div className="flex justify-center mt-auto w-full px-5">
                             <a
-                                href="/reservas"
-                                className="w-full bg-primary text-white font-bold py-4 rounded-xl shadow-lg hover:brightness-110 active:scale-95 transition-all text-sm tracking-widest uppercase"
+                                href="/reserva"
+                                className="bg-[#b30000] text-white font-bold text-[13px] py-3.5 px-4 rounded-xl w-full text-center hover:bg-red-800 transition-colors uppercase tracking-wide"
                             >
                                 FAÇA SUA RESERVA
                             </a>
                         </div>
                     </div>
                 ))}
+            </div>
+
+            {/* Unit Selection */}
+            <div className="mt-14 text-center">
+                <h3 className="text-2xl font-black text-black mb-5" style={{ fontFamily: "'Georgia', Sans-serif" }}>
+                    Em qual unidade você gostaria<br />de fazer sua reserva?
+                </h3>
+                <div className="flex justify-center items-center gap-6">
+                    <a
+                        href="/barueri"
+                        className="bg-[#b30000] text-white font-bold text-sm py-3.5 px-10 rounded-xl hover:bg-red-800 transition-colors uppercase tracking-wide"
+                    >
+                        BARUERI
+                    </a>
+                    <a
+                        href="/jandira"
+                        className="bg-[#b30000] text-white font-bold text-sm py-3.5 px-10 rounded-xl hover:bg-red-800 transition-colors uppercase tracking-wide"
+                    >
+                        JANDIRA
+                    </a>
+                </div>
             </div>
         </section>
     );
