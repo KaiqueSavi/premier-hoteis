@@ -7,6 +7,12 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   integrations: [react()],
+  output: 'static',
+
+  // Evita pasta _astro: muitos Apache/cPanel bloqueiam URLs que começam com _
+  build: {
+    assets: 'astro'
+  },
 
   vite: {
     plugins: [tailwindcss()]

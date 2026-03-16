@@ -1,0 +1,15 @@
+# Premier Hotéis - Apache/cPanel
+# Garante que a raiz do site sirva index.html (evita 403)
+
+DirectoryIndex index.html
+
+# Desabilita listagem de diretórios (segurança)
+Options -Indexes
+
+# Tipos MIME comuns (evita 403 em assets)
+<IfModule mod_mime.c>
+  AddType application/javascript .js
+  AddType text/css .css
+  AddType image/svg+xml .svg .svgz
+  AddType image/webp .webp
+</IfModule>
