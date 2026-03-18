@@ -8,6 +8,7 @@ const rooms = [
         capacity: '2 Camas de solteiro - 2 pessoas',
         amenities: 'Ar condicionado - Wifi - Tv com canais a cabo - Banheiro privativo - Artigos de toalete gratuitos - Toalete - Toalhas - Piso de azulejo/mármore - Mesa - Telefone - Ferro de engomar - Rádio - Secador de cabelo - Serviço de despertar - Guarda-roupa ou armário - Mesa de jantar - Arara - Papel higiênico',
         images: [
+            '/images/HotelTwinDeluxe(3).png',
             '/images/HotelTwinDeluxe(1).png',
             '/images/HotelTwinDeluxe(2).png'
         ],
@@ -19,6 +20,7 @@ const rooms = [
         capacity: '1 Cama de casal - 2 pessoas',
         amenities: 'Ar condicionado - Wifi - Tv com canais a cabo - Banheiro privativo - Artigos de toalete gratuitos - Toalete - Toalhas - Piso de azulejo/mármore - Mesa - Telefone - Ferro de engomar - Rádio - Secador de cabelo - Serviço de despertar - Guarda-roupa ou armário - Mesa de jantar - Arara - Papel higiênico',
         images: [
+            '/images/SuiteStandard(3).png',
             '/images/SuiteStandard (1).png',
             '/images/SuiteStandard (2).png'
         ],
@@ -30,6 +32,7 @@ const rooms = [
         capacity: '1 Cama de casal - 1 pessoa',
         amenities: 'Ar condicionado - Wifi - Tv com canais a cabo - Banheiro privativo - Artigos de toalete gratuitos - Toalete - Toalhas - Piso de azulejo/mármore - Mesa - Telefone - Ferro de engomar - Rádio - Secador de cabelo - Serviço de despertar - Guarda-roupa ou armário - Mesa de jantar - Arara - Papel higiênico',
         images: [
+            '/images/QuartoTwinDeluxe(3).png',
             '/images/QuartoTwinDeluxe (1).png',
             '/images/QuartoTwinDeluxe (2).png'
         ],

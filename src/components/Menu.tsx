@@ -13,12 +13,12 @@ const menuItems = [
     },
     {
         category: 'LANCHES E PIZZAS',
-        image: '/images/Menu/lanchesPizzas.jpg',
+        image: '/images/Menu/lanchesPizzas(2).png',
         description: 'Hambúrgueres diversos, Beirutes, Especial Contra Filé, Bauru, Misto Quente, Combos, Pizzas...',
     },
     {
         category: 'SOBREMESAS',
-        image: '/images/Menu/sobremesas.jpg',
+        image: '/images/Menu/sobremesas(2).jpeg',
         description: 'Pudim de Leite\nSobremesas Cacau Show®',
     }
 ];

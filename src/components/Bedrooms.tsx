@@ -3,22 +3,22 @@ import React from 'react';
 const rooms = [
     {
         title: 'Quarto Individual',
-        image: '/images/Badrooms/quartosolteiro.png', // Placeholder path
+        image: '/images/Badrooms/quartosolteiro (2).png', // Placeholder path
         amenities: ['WIFI GRATUITO', 'BANHEIRO PRIVATIVO', 'SERVIÇO DE QUARTO'],
     },
     {
         title: 'Quarto Casal',
-        image: '/images/Badrooms/quartocasal.png', // Placeholder path
+        image: '/images/Badrooms/quartocasal (2).PNG', // Placeholder path
         amenities: ['WIFI GRATUITO', 'BANHEIRO PRIVATIVO', 'SERVIÇO DE QUARTO'],
     },
     {
         title: 'Quarto Duplo',
-        image: '/images/Badrooms/quartoduplo.png', // Placeholder path
+        image: '/images/Badrooms/quartoduplo (2).png', // Placeholder path
         amenities: ['WIFI GRATUITO', 'BANHEIRO PRIVATIVO', 'SERVIÇO DE QUARTO'],
     },
     {
         title: 'Quarto Triplo',
-        image: '/images/Badrooms/quartotriplo.png', // Placeholder path
+        image: '/images/Badrooms/quartotriplo (2).PNG', // Placeholder path
         amenities: ['WIFI GRATUITO', 'BANHEIRO PRIVATIVO', 'SERVIÇO DE QUARTO'],
     },
 ];

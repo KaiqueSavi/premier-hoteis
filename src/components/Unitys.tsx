@@ -70,7 +70,7 @@ export default function Unitys() {
                         {/* Main Image with rounded corners */}
                         <div className="absolute inset-0 bg-white rounded-[40px] shadow-2xl overflow-hidden transform ">
                             <img
-                                src="/images/Unity.png"
+                                src="/images/Unity (2).png"
                                 alt="Hotel Interior"
                                 className="w-full h-full object-cover opacity-90"
                             />

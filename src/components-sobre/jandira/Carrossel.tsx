@@ -20,6 +20,7 @@ const rooms = [
         capacity: '1 Cama de casal - p/ 2 pessoas',
         amenities: jandiraAmenities,
         images: [
+            '/images/QuartosJandira/SuiteStandard(3).png',
             '/images/QuartosJandira/SuiteStandard (1).png',
             '/images/QuartosJandira/SuiteStandard (2).png'
         ],
@@ -42,8 +43,8 @@ const rooms = [
         capacity: 'Para 3 pessoas',
         amenities: jandiraAmenities,
         images: [
-            '/images/QuartosJandira/QuartoTriploDeluxe (1).png',
-            '/images/QuartosJandira/QuartoTriploDeluxe (2).png'
+            '/images/QuartosJandira/QuartoTriploDeluxe(3).png',
+            '/images/QuartosJandira/QuartoTriploDeluxe(4).png'
         ],
         whatsappLink: 'https://api.whatsapp.com/send?phone=5511996297158'
     }
